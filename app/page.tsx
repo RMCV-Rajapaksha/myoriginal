@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Image from "next/image";
+import Grid from "@/components/Grid";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           }
         ]}/>
         <Hero/>
+        <Grid/>
       </div>
     </main>
   );
