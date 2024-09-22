@@ -13,14 +13,14 @@ const Hero = () => {
        */}
       <div>
         <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+          className="-top-20 -left-10 md:-left-50 md:-top-20 h-screen"
           fill="white"
         />
         <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
+          className="h-[80vh] w-[80vw] top-10 left-1/2"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight className="left-50 top-30 h-[80vh] w-[80vw]" fill="blue" />
       </div>
 
       {/**

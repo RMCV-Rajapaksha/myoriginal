@@ -1,14 +1,21 @@
+import Finance_app from '../public/thumbnail/Finace_app.png';
+import Finance_web from '../public/thumbnail/Finance_web.png';
+import Password from '../public/thumbnail/Password.png';
+import Pos_Flutter from './public/thumbnail/Pos_Flutter.png';
+import Pos from '../public/thumbnail/Pos.png';
+import Vision from '../public/thumbnail/Vision.png';
+import Hostel from '../public/thumbnail/Hostel.png';
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
-  
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Deeply fascinated by everything about computers💻",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +25,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Currently delving into DevOps",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -28,8 +35,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Honing soft skills",
+      description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +45,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Tech enthusiast with a love for robotics and space, Constantly seeking growth and new challenges",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -46,11 +53,10 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Finding joy in hobbies outside of coding",
+      description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +65,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Always open to new projects and challenges",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -68,7 +74,6 @@ export const navItems = [
       spareImg: "",
     },
   ];
-  
   export const projects = [
     {
       id: 1,
@@ -103,7 +108,6 @@ export const navItems = [
       link: "/ui.apple.com",
     },
   ];
-  
   export const testimonials = [
     {
       quote:
