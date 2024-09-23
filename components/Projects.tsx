@@ -8,10 +8,15 @@ import { PinContainer } from "./ui/3d-pin";
 const RecentProjects = () => {
   return (
     <div className="py-20">
-      <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
-      </h1>
+      <div className="flex justify-center">
+          <p className="font-semibold text-center mt-12">Real world results</p>
+        </div>
+        <h2 className="text-4xl text-center mt-3 font-extrabold">
+          Featured projects
+        </h2>
+        <p className="text-center text-purple font-semibold mt-3 text-2xl">
+          See how I transform concepts into engaging digital experiences
+        </p>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
